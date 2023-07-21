@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @date 16/07/2023 21:22
  */
 
-public class Assertions {
+public class AssertionsTest {
     /**
      * Value Equals with custom message
      */
@@ -139,7 +139,7 @@ public class Assertions {
     }
 
     /**
-     * Grouped Assertions
+     * Grouped AssertionsTest
      */
     @Test
     void firstAndLastNameMatches() {
@@ -162,6 +162,4 @@ public class Assertions {
         people.add(new Person("Jane", "Doe"));
         assertTrue(people.stream().anyMatch(p -> p.getFirstName().equals("John")));
     }
-
-
 }
