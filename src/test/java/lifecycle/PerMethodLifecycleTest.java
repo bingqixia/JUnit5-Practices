@@ -14,7 +14,7 @@ public class PerMethodLifecycleTest {
 
     @BeforeAll
     static void beforeTheEntireTest() {
-        System.out.println("Before the entire test fixture");
+        System.out.println("Before the entire test");
     }
 
     @AfterAll
